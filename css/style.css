@@ -1,0 +1,127 @@
+* {
+    color: #696969;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+b,
+.li-icon {
+    font-size: 20px;
+}
+
+img {
+    margin-bottom: 15px;
+}
+
+.comfortaa {
+    font-family: 'Comfortaa' !important;
+}
+
+.cor-titulo,
+.cor-rosa {
+    color: #EC0462;
+}
+
+.cor-cinza {
+    color: #696969;
+}
+
+.logo,
+.link-menu {
+    font-size: 22px;
+}
+
+.link-menu {
+    color: #696969;
+}
+
+.link-menu:hover {
+    color: #EC0462;
+}
+
+.menu {
+    padding: 15px 0;
+}
+
+header {
+    background: url('../imgs/pexels-negative-space.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    width: max-content;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 900
+}
+
+.bg1 {
+    background: #f1f1f1;
+}
+
+.p5 {
+    padding: 5em 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.skills {
+    list-style: none;
+    display: inline;
+}
+
+.skills li {
+    display: inline;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+
+.btn-rosa {
+    border: 1px solid #EC0462;
+    border-radius: 5px;
+}
+
+.btn-rosa,
+.btn-rosa i {
+    color: #EC0462;
+}
+
+.btn-rosa:hover {
+    color: #696969;
+    border: 1px solid #696969;
+}
+
+@media(max-width: 500px) {
+    .logo,
+    .link-menu {
+        font-size: 20px;
+    }
+    .titulo {
+        width: 80%;
+        font-size: 30px;
+    }
+    .card {
+        margin-bottom: 15px;
+    }
+}
